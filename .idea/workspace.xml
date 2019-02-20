@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9d98f43-1863-453c-a965-76653f420087" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/ContainsDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/LargestPerimeterTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MaxConsecutiveOnes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MonotonicArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MoveZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/PascalsTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/PascalsTriangleII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/RemoveElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/ReshapeTheMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/ToeplitzMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/TransposeMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/TwoSumIIInputArrayIsSorted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/com/xyzniu/leetcode/array/ArrayPartitionI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/com/xyzniu/leetcode/array/ArrayPartitionI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/ArrayPartitionI.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/ArrayPartitionI.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,13 +13,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/ContainsDuplicate.java">
+        <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/ArrayPartitionI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="18" selection-start-line="18" selection-end-line="36" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-727">
+              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -62,7 +43,6 @@
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/FlippingAnImage.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/SortArrayByParityII.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/FibonacciNumber.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/ArrayPartitionI.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/TransposeMatrix.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/PascalsTriangle.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/LargestPerimeterTriangle.java" />
@@ -80,10 +60,11 @@
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MaxConsecutiveOnes.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MonotonicArray.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/ContainsDuplicate.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/ArrayPartitionI.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="533" />
     <option name="y" value="23" />
     <option name="width" value="907" />
@@ -133,7 +114,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550670526723" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550670714693" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -199,18 +180,18 @@
       <option name="presentableId" value="Default" />
       <updated>1550592481697</updated>
       <workItem from="1550592484636" duration="10321000" />
-      <workItem from="1550659734358" duration="8402000" />
+      <workItem from="1550659734358" duration="9108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18723000" />
+    <option name="totallyTimeSpent" value="19429000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="533" y="23" width="907" height="795" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="795" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.40132305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40069443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -220,7 +201,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32872927" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39917126" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39917126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -258,17 +239,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/practice/src/Test.java" />
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/ArrayPartitionI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-          <folding>
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/FibonacciNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -450,11 +420,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/ContainsDuplicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="18" selection-start-line="18" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/ArrayPartitionI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-727">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>

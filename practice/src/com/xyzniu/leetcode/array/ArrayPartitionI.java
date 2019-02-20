@@ -1,7 +1,5 @@
 package com.xyzniu.leetcode.array;
 
-import java.util.Arrays;
-
 /**
  * 561
  */
