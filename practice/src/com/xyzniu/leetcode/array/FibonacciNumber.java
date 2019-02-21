@@ -41,13 +41,6 @@ public class FibonacciNumber {
         } else return fib1(N - 1) + fib1(N - 2);
     }
 
-    /**
-     * 执行用时：3ms
-     * 内存消耗：20MB
-     *
-     * @param N
-     * @return
-     */
     public int fib2(int N) {
         List<Integer> list = new ArrayList<>();
         list.add(0);
@@ -58,13 +51,6 @@ public class FibonacciNumber {
         return list.get(N);
     }
 
-    /**
-     * 执行用时：3ms
-     * 内存消耗：19MB
-     *
-     * @param N
-     * @return
-     */
     public int fib3(int N) {
         if (N == 0) {
             return 0;

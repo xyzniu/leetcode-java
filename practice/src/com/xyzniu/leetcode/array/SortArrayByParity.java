@@ -22,13 +22,6 @@ public class SortArrayByParity {
         return sortArrayByParity1(A);
     }
 
-    /**
-     * 执行用时：23ms
-     * 内存消耗：40MB
-     *
-     * @param A
-     * @return
-     */
     public int[] sortArrayByParity1(int[] A) {
         if (A == null || A.length <= 1) {
             return A;
@@ -53,14 +46,6 @@ public class SortArrayByParity {
         }
         return A;
     }
-
-    /**
-     * 执行用时：21ms
-     * 内存消耗：41ms
-     *
-     * @param A
-     * @return
-     */
     public int[] sortArrayByParity2(int[] A) {
         int[] rst = new int[A.length];
         int left = 0;

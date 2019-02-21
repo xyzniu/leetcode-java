@@ -8,9 +8,6 @@ public class MaxConsecutiveOnes {
     /**
      * 给定一个二进制数组， 计算其中最大连续1的个数。
      *
-     * 执行用时：9ms
-     * 内存消耗：42MB
-     *
      * @param nums
      * @return
      */

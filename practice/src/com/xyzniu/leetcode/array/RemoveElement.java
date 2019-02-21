@@ -23,14 +23,6 @@ public class RemoveElement {
         return removeElement2(nums, val);
     }
 
-    /**
-     * 执行用时：9ms
-     * 内存消耗：29MB
-     *
-     * @param nums
-     * @param val
-     * @return
-     */
     public int removeElement1(int[] nums, int val) {
         if (nums == null || nums.length == 0) {
             return 0;
@@ -56,13 +48,6 @@ public class RemoveElement {
         }
     }
 
-    /**
-     * 执行用时：9ms
-     * 内存消耗：29MB
-     * @param nums
-     * @param val
-     * @return
-     */
     public int removeElement2(int[] nums, int val) {
         if (nums == null || nums.length == 0) {
             return 0;

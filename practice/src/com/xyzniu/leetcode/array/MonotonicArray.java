@@ -10,9 +10,6 @@ public class MonotonicArray {
      * 如果对于所有 i <= j，A[i] <= A[j]，那么数组 A 是单调递增的。 如果对于所有 i <= j，A[i]> = A[j]，那么数组 A 是单调递减的。
      * 当给定的数组 A 是单调数组时返回 true，否则返回 false。
      * <p>
-     * 执行用时：28ms
-     * 内存消耗：54MB
-     *
      * @param A
      * @return
      */
@@ -20,12 +17,6 @@ public class MonotonicArray {
         return isMonotonic1(A);
     }
 
-    /**
-     * 执行用时：29ms
-     * 内存消耗：45MB
-     * @param A
-     * @return
-     */
     public boolean isMonotonic2(int[] A) {
         int up = 0;
         int down = 0;
@@ -43,12 +34,6 @@ public class MonotonicArray {
         return true;
     }
 
-    /**
-     * 执行用时：28ms
-     * 内存消耗：46MB
-     * @param A
-     * @return
-     */
     public boolean isMonotonic1(int[] A) {
         if (A.length == 1) {
             return true;

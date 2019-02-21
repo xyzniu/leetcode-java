@@ -17,12 +17,6 @@ public class SortArrayByParityII {
         return sortArrayByParityII1(A);
     }
 
-    /**
-     * 执行用时：10ms
-     * 内存消耗：41MB
-     * @param A
-     * @return
-     */
     public int[] sortArrayByParityII1(int[] A) {
         if (A == null) {
             return A;

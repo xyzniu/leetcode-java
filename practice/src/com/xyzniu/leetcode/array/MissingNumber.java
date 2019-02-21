@@ -20,13 +20,6 @@ public class MissingNumber {
         return missingNumber1(nums);
     }
 
-    /**
-     * 执行用时：1ms
-     * 内存小阿红：31MB
-     *
-     * @param nums
-     * @return
-     */
     public int missingNumber1(int[] nums) {
         int sum = 0;
         for (int i = 0; i < nums.length; i++) {

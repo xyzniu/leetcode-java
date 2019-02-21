@@ -17,12 +17,6 @@ public class FlippingAnImage {
         return flipAndInvertImage1(A);
     }
 
-    /**
-     * 执行用时：8ms
-     * 内存消耗：31MB
-     * @param A
-     * @return
-     */
     public int[][] flipAndInvertImage1(int[][] A) {
         for (int[] row : A) {
             if (row == null) {

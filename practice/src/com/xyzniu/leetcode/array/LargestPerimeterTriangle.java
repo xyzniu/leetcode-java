@@ -20,12 +20,6 @@ public class LargestPerimeterTriangle {
         return largestPerimeter1(A);
     }
 
-    /**
-     * 执行用时：27ms
-     * 内存消耗：37MB
-     * @param A
-     * @return
-     */
     public int largestPerimeter1(int[] A) {
         quickSort(A, 0, A.length - 1);
         for (int i = 0; i < A.length - 2; i++) {

@@ -26,13 +26,6 @@ public class SumOfEvenNumbersAfterQueries {
         return sumEvenAfterQueries1(A, queries);
     }
 
-    /**
-     * 执行用时：10ms
-     * 内存消耗：52MB
-     * @param A
-     * @param queries
-     * @return
-     */
     public int[] sumEvenAfterQueries1(int[] A, int[][] queries) {
 
         int sum = 0;

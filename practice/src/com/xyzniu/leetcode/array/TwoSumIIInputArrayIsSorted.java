@@ -12,8 +12,6 @@ public class TwoSumIIInputArrayIsSorted {
      * <p>
      * 双指针
      * <p>
-     * 执行用时：1ms
-     * 内存消耗：26MB
      *
      * @param numbers
      * @param target

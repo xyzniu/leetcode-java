@@ -11,9 +11,6 @@ public class ReshapeTheMatrix {
      * 重构后的矩阵需要将原始矩阵的所有元素以相同的行遍历顺序填充。
      * 如果具有给定参数的reshape操作是可行且合理的，则输出新的重塑矩阵；否则，输出原始矩阵。
      *
-     * 执行用时：7ms
-     * 内存消耗：41MB
-     *
      * @param nums
      * @param r
      * @param c

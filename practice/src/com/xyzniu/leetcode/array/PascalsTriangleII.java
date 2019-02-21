@@ -11,8 +11,6 @@ public class PascalsTriangleII {
     /**
      * 给定一个非负索引 k，其中 k ≤ 33，返回杨辉三角的第 k 行。
      * <p>
-     * 执行用时：3ms
-     * 内存消耗：25MB
      *
      * @param rowIndex
      * @return

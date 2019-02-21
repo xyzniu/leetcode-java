@@ -18,13 +18,6 @@ public class ArrayPartitionI {
         return arrayPairSum1(nums);
     }
 
-    /**
-     * 执行用时：41ms
-     * 内存消耗：41MB
-     *
-     * @param nums
-     * @return
-     */
     public int arrayPairSum1(int[] nums) {
         //Arrays.sort(nums);
         int len = nums.length;

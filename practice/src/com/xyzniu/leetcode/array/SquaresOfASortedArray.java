@@ -19,13 +19,6 @@ public class SquaresOfASortedArray {
         return sortedSquares1(A);
     }
 
-    /**
-     * 执行用时14ms
-     * 内存消耗43MB
-     *
-     * @param A
-     * @return
-     */
     private int[] sortedSquares1(int[] A) {
         if (A == null) {
             return A;
@@ -80,18 +73,6 @@ public class SquaresOfASortedArray {
         return rst;
     }
 
-    /**
-     * 内置函数：
-     * 执行用时18ms
-     * 内存消耗44MB
-     * <p>
-     * 自己写的快排：
-     * 执行用时23ms
-     * 内存消耗32MB
-     *
-     * @param A
-     * @return
-     */
     public int[] sortedSquares2(int[] A) {
         if (A == null) {
             return A;
