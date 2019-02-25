@@ -50,9 +50,5 @@ public class MaximumProductOfThreeNumbers {
         quickSort(nums, start + 1, hi);
     }
 
-    public static void main(String[] args) {
-        MaximumProductOfThreeNumbers m = new MaximumProductOfThreeNumbers();
-        m.quickSort(new int[]{9, 1, 5, 6, 7, 2}, 0, 5);
-    }
 
 }

@@ -31,9 +31,5 @@ public class HappyNumber {
         return number == 1;
     }
 
-    public static void main(String[] args) {
-        HappyNumber h = new HappyNumber();
-        h.isHappy(19);
-    }
 
 }

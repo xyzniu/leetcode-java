@@ -75,10 +75,5 @@ public class MonotonicArray {
         return true;
     }
 
-    public static void main(String[] args) {
-        MonotonicArray m = new MonotonicArray();
-        m.isMonotonic(new int[]{1, 3, 2});
-    }
-
 
 }

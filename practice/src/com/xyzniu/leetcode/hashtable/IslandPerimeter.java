@@ -64,12 +64,6 @@ public class IslandPerimeter {
         }
     }
 
-    public static void main(String[] args) {
-        IslandPerimeter i = new IslandPerimeter();
-        i.islandPerimeter(new int[][]{
-                {0, 1, 0, 0}, {1, 1, 1, 0}, {0, 1, 0, 0}, {1, 1, 0, 0}
-        });
-    }
 
     public int islandPerimeter1(int[][] grid) {
         HashSet<Integer> set = new HashSet<>();

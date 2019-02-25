@@ -51,8 +51,4 @@ public class FindTheDifference {
         return (char)sum;
     }
 
-    public static void main(String[] args) {
-        FindTheDifference f = new FindTheDifference();
-        f.findTheDifference("abcd", "abcde");
-    }
 }

@@ -2,21 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9d98f43-1863-453c-a965-76653f420087" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/RevealCardsInIncreasingOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/DistributeCandies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/EncodeAndDecodeTinyurl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/FindTheDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/HappyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/IslandPerimeter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/SingleNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/UncommonWordsFromTwoSentences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/string/DetectCapital.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/string/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/string/ReverseWordsInAStringIII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/string/RobotReturnToOrigin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/string/UniqueMorseCodeWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/AddToArrayFormOfInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/BestTimeToBuyAndSellStockII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/LargestNumberAtLeastTwiceOfOthers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/LongestContinuousIncreasingSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/OneBitAndTwoBitCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/PancakeSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/PlusOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/PositionsOfLargeGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/RotateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/SearchInsertPosition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/com/xyzniu/leetcode/array/MaximumProductOfThreeNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/com/xyzniu/leetcode/array/MaximumProductOfThreeNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/com/xyzniu/leetcode/hashtable/HappyNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/com/xyzniu/leetcode/hashtable/HappyNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MaximumProductOfThreeNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MaximumProductOfThreeNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MonotonicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MonotonicArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/FindTheDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/FindTheDifference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/HappyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/HappyNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/IslandPerimeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/IslandPerimeter.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +26,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/leetcode_java$PancakeSorting.ic" NAME="PancakeSorting Coverage Results" MODIFIED="1551123123097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.xyzniu.leetcode.array.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="leetcode-java" />
+  </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,18 +50,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/FibonacciNumber.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/FlippingAnImage.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/LargestPerimeterTriangle.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MajorityElement.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MaxConsecutiveOnes.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MissingNumber.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MonotonicArray.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MoveZeroes.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/PascalsTriangleII.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/PascalsTriangle.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/RemoveElement.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/ReshapeTheMatrix.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/SortArrayByParity.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/SortArrayByParityII.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/SquaresOfASortedArray.java" />
@@ -65,7 +63,6 @@
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/DegreeOfAnArray.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/TwoSum.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MaximumSubarray.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MaximumProductOfThreeNumbers.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MergeSortedArray.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/NRepeatedElementInSize2nArray.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/KeyboardRow.java" />
@@ -76,11 +73,8 @@
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/SubdomainVisitCount.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/IntersectionOfTwoArrays.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/SingleNumber.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/IslandPerimeter.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/DistributeCandies.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/FindTheDifference.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/UncommonWordsFromTwoSentences.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/HappyNumber.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/string/UniqueMorseCodeWords.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/string/RobotReturnToOrigin.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/string/ReverseString.java" />
@@ -91,13 +85,29 @@
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/RabbitsInForest.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/string/DetectCapital.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/DailyTemperatures.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/BestTimeToBuyAndSellStockII.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/SearchInsertPosition.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/OneBitAndTwoBitCharacters.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/AddToArrayFormOfInteger.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/PositionsOfLargeGroups.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/LongestContinuousIncreasingSubsequence.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/PlusOne.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/LargestNumberAtLeastTwiceOfOthers.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/RotateArray.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MaximizeDistanceToClosestPerson.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MaximumProductOfThreeNumbers.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MonotonicArray.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/FindTheDifference.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/PancakeSorting.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/HappyNumber.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/IslandPerimeter.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="580" />
+    <option name="x" value="576" />
     <option name="y" value="23" />
-    <option name="width" value="860" />
+    <option name="width" value="864" />
     <option name="height" value="795" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -108,7 +118,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,13 +154,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550871325418" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551123624140" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -172,68 +182,6 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HappyNumber">
-    <configuration name="FindTheDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xyzniu.leetcode.hashtable.FindTheDifference" />
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xyzniu.leetcode.hashtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xyzniu.leetcode.hashtable.HappyNumber" />
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xyzniu.leetcode.hashtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IslandPerimeter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xyzniu.leetcode.hashtable.IslandPerimeter" />
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xyzniu.leetcode.hashtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaximumProductOfThreeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xyzniu.leetcode.array.MaximumProductOfThreeNumbers" />
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xyzniu.leetcode.hashtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.HappyNumber" />
-        <item itemvalue="Application.FindTheDifference" />
-        <item itemvalue="Application.IslandPerimeter" />
-        <item itemvalue="Application.MaximumProductOfThreeNumbers" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -249,22 +197,25 @@
       <workItem from="1550746449290" duration="10748000" />
       <workItem from="1550840119072" duration="3926000" />
       <workItem from="1550862440734" duration="6278000" />
+      <workItem from="1551099995906" duration="962000" />
+      <workItem from="1551110757448" duration="1693000" />
+      <workItem from="1551113138855" duration="4596000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40381000" />
+    <option name="totallyTimeSpent" value="47632000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="580" y="23" width="860" height="795" extended-state="0" />
+    <frame x="576" y="23" width="864" height="795" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30697674" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3263889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" side_tool="true" weight="0.3298611" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32872927" />
@@ -278,6 +229,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3298611" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -307,111 +259,16 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/PancakeSorting.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/FibonacciNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/FlippingAnImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-142">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/LargestPerimeterTriangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-614">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MajorityElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MaxConsecutiveOnes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MissingNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MonotonicArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MoveZeroes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/PascalsTriangleII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/PascalsTriangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-206">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/RemoveElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-546">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/ReshapeTheMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-275">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/SortArrayByParity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -524,13 +381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MaximumProductOfThreeNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MergeSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -597,42 +447,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/SubdomainVisitCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/FindTheDifference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/DistributeCandies.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/IslandPerimeter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="108" column="11" lean-forward="true" selection-start-line="108" selection-start-column="11" selection-end-line="108" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1450#1451#0" expanded="true" />
-            <element signature="e#1499#1500#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -647,13 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="20" selection-start-line="20" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/HappyNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -688,12 +499,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/SpiralMatrixII.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/RabbitsInForest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/SpiralMatrixII.java" />
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/RabbitsInForest.java" />
     <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/EncodeAndDecodeTinyurl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -716,13 +523,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/DailyTemperatures.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/DailyTemperatures.java" />
     <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/string/DetectCapital.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/SearchInsertPosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/BestTimeToBuyAndSellStockII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/PlusOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/LongestContinuousIncreasingSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/PositionsOfLargeGroups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/LargestNumberAtLeastTwiceOfOthers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/AddToArrayFormOfInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/RotateArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MaximizeDistanceToClosestPerson.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/FindTheDifference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/HappyNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/IslandPerimeter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/PancakeSorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/SubdomainVisitCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MonotonicArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MaximumProductOfThreeNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/OneBitAndTwoBitCharacters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
         </state>
       </provider>
     </entry>
