@@ -1,47 +1,48 @@
-/*
-// Definition for a Node.
-class Node {
-    public int val;
-    public List<Node> children;
+package com.xyzniu.leetcode.tree;
 
-    public Node() {}
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
 
-    public Node(int _val,List<Node> _children) {
-        val = _val;
-        children = _children;
-    }
-};
-*/
-class Solution {
+/**
+ * 589
+ */
+public class NAryTreePreorderTraversal {
+    /**
+     * 给定一个 N 叉树，返回其节点值的前序遍历。
+     *
+     * @param root
+     * @return
+     */
     public List<Integer> preorder(Node root) {
         List<Integer> rst = new ArrayList<Integer>();
         preorder(root, rst);
         return rst;
     }
-    
-    private void preorder(Node root, List<Integer> rst){
-        if(root==null){
+
+    private void preorder(Node root, List<Integer> rst) {
+        if (root == null) {
             return;
         }
         rst.add(root.val);
         List<Node> children = root.children;
-        for(int i = 0; i < children.size(); i++){
+        for (int i = 0; i < children.size(); i++) {
             preorder(children.get(i), rst);
         }
     }
-    
-        public List<Integer> preorder(Node root) {
+
+    public List<Integer> preorder1(Node root) {
         List<Integer> rst = new ArrayList<>();
-        if(root==null){
+        if (root == null) {
             return rst;
         }
         Stack<Node> stack = new Stack<>();
         stack.push(root);
-        while(!stack.empty()){
+        while (!stack.empty()) {
             Node node = stack.pop();
             rst.add(node.val);
             List<Node> children = node.children;
-            for(int i = children.size()-1; i>=0; i--){
+            for (int i = children.size() - 1; i >= 0; i--) {
                 Node temp = children.get(i);
                 stack.push(temp);
             }
@@ -49,3 +50,4 @@ class Solution {
         return rst;
     }
 }
+
