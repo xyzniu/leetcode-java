@@ -41,7 +41,7 @@ public class VerifyingAnAlienDictionary {
             }
             index++;
         }
-        return word1.length()<word2.length();
+        return word1.length() < word2.length();
     }
 
     private HashMap<Character, Integer> createHashTable(String order) {
@@ -52,11 +52,5 @@ public class VerifyingAnAlienDictionary {
         return map;
     }
 
-    public static void main(String[] args) {
-        VerifyingAnAlienDictionary v = new VerifyingAnAlienDictionary();
-        v.isAlienSorted(new String[]{
-                "word", "world", "row"
-        }, "worldabcefghijkmnpqstuvxyz");
-    }
 
 }
