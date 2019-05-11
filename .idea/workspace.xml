@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9d98f43-1863-453c-a965-76653f420087" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/CanPlaceFlowers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MagicSquaresInGrid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/NonDecreasingArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/dynamicprogramming/ClimbingStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/dynamicprogramming/HouseRobber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/dynamicprogramming/RangeSumQueryImmutable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/dynamicprogramming/UniqueBinarySearchTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/math/XOfAKindInADeckOfCards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/tree/ConstructBinaryTreeFromInorderAndPostorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/stack/RemoveOutermostParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/com/xyzniu/leetcode/array/FindPivotIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/com/xyzniu/leetcode/array/FindPivotIndex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/CanPlaceFlowers.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/CanPlaceFlowers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/JewelsAndStones.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/JewelsAndStones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/linkedlist/DeleteNodeInALinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/linkedlist/DeleteNodeInALinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/string/ToLowerCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/string/ToLowerCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/tree/RangeSumOfBst.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/tree/RangeSumOfBst.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,11 +21,24 @@
       <FILTER>com.xyzniu.leetcode.array.*</FILTER>
     </SUITE>
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="leetcode-java" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/linkedlist/DeleteNodeInALinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" selection-start-line="13" selection-end-line="20" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -54,9 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/math/ProjectionAreaOf3dShapes.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/math/SumOfTwoIntegers.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/tree/BinaryTreePaths.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/tree/LeafSimilarTrees.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/stack/ImplementStackUsingQueues.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/math/PalindromeNumber.java" />
@@ -64,7 +69,6 @@
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/tree/LowestCommonAncestorOfABinarySearchTree.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/string/GoatLatin.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/string/ReorderLogFiles.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/linkedlist/DeleteNodeInALinkedList.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/linkedlist/ListNode.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/linkedlist/MergeTwoSortedLists.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/tree/SameTree.java" />
@@ -81,7 +85,6 @@
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/sort/QueueReconstructionByHeight.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/math/OptimalDivision.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/tree/MaximumBinaryTree.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/tree/RangeSumOfBst.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/math/NumberComplement.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/stack/MinimumAddToMakeParenthesesValid.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/graph/AllPathsFromSourceToTarget.java" />
@@ -95,7 +98,6 @@
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/ThirdMaximumNumber.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/KDiffPairsInAnArray.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/math/XOfAKindInADeckOfCards.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/CanPlaceFlowers.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/NonDecreasingArray.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/tree/ConstructBinaryTreeFromInorderAndPostorderTraversal.java" />
@@ -105,10 +107,16 @@
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/dynamicprogramming/ClimbingStairs.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/dynamicprogramming/HouseRobber.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/dynamicprogramming/UniqueBinarySearchTrees.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/CanPlaceFlowers.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/JewelsAndStones.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/stack/RemoveOutermostParentheses.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/tree/RangeSumOfBst.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/string/ToLowerCase.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/linkedlist/DeleteNodeInALinkedList.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="576" />
     <option name="y" value="23" />
     <option name="width" value="864" />
@@ -122,6 +130,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,15 +149,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetcode-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551798842935" />
@@ -201,16 +217,19 @@
       <workItem from="1551784348708" duration="2756000" />
       <workItem from="1551789092177" duration="2925000" />
       <workItem from="1551792438570" duration="5208000" />
+      <workItem from="1555092825053" duration="331000" />
+      <workItem from="1557595765767" duration="1200000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100126000" />
+    <option name="totallyTimeSpent" value="101657000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="576" y="23" width="864" height="795" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="798" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49861878" visible="true" weight="0.4050926" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49861878" visible="true" weight="0.35208333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -294,32 +313,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/tree/BinaryTreePaths.java" />
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/math/SumOfTwoIntegers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/math/ProjectionAreaOf3dShapes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/tree/LowestCommonAncestorOfABinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/tree/AverageOfLevelsInBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -378,13 +371,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/linkedlist/DeleteNodeInALinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -463,13 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/tree/RangeSumOfBst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -577,13 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/CanPlaceFlowers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/math/XOfAKindInADeckOfCards.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -618,9 +590,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/CombinationSumII.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/CombinationSumII.java" />
     <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/dynamicprogramming/RangeSumQueryImmutable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -657,6 +627,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="72" column="25" lean-forward="true" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/CanPlaceFlowers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/JewelsAndStones.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="18" selection-start-line="18" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/stack/RemoveOutermostParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/tree/RangeSumOfBst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/string/ToLowerCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/linkedlist/DeleteNodeInALinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>

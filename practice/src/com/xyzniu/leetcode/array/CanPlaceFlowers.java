@@ -1,5 +1,7 @@
 package com.xyzniu.leetcode.array;
 
+import java.util.LinkedList;
+
 /**
  * 605
  */
@@ -48,5 +50,4 @@ public class CanPlaceFlowers {
         }
         return rst >= n;
     }
-
 }
