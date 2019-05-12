@@ -4,7 +4,7 @@ package com.xyzniu.leetcode.array;
  * 832
  */
 public class FlippingAnImage {
-
+    
     /**
      * 给定一个二进制矩阵 A，我们想先水平翻转图像，然后反转图像并返回结果。
      * 水平翻转图片就是将图片的每一行都进行翻转，即逆序。例如，水平翻转 [1, 1, 0] 的结果是 [0, 1, 1]。
@@ -14,24 +14,24 @@ public class FlippingAnImage {
      * @return
      */
     public int[][] flipAndInvertImage(int[][] A) {
-        return flipAndInvertImage1(A);
-    }
-
-    public int[][] flipAndInvertImage1(int[][] A) {
-        for (int[] row : A) {
-            if (row == null) {
-                continue;
-            }
-            for (int i = 0, j = row.length - 1; i < j; i++, j--) {
-                if (row[i] == row[j]) {
+        int width = A[0].length - 1;
+        for (int i = 0; i < A.length; i++) {
+            for (int left = 0, right = width; left < right; left++, right--) {
+                if (A[i][left] == A[i][right]) {
                     continue;
                 }
-                int temp = row[i];
-                row[i] = row[j];
-                row[j] = temp;
+                int tmp = A[i][left];
+                A[i][left] = A[i][right];
+                A[i][right] = tmp;
             }
-            for (int i = 0; i < row.length; i++) {
-                row[i] = row[i] ^ 1;
+        }
+        for (int i = 0; i < A.length; i++) {
+            for (int j = 0; j < A[0].length; j++) {
+                if (A[i][j] == 0) {
+                    A[i][j] = 1;
+                } else {
+                    A[i][j] = 0;
+                }
             }
         }
         return A;
