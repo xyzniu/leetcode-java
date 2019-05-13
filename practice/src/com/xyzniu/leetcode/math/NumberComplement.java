@@ -4,7 +4,7 @@ package com.xyzniu.leetcode.math;
  * 476
  */
 public class NumberComplement {
-
+    
     /**
      * 给定一个正整数，输出它的补数。补数是对该数的二进制表示取反。
      * 注意:
@@ -15,12 +15,22 @@ public class NumberComplement {
      * @return
      */
     public int findComplement(int num) {
-        int k = 1;
-        while ((k - 1) < num) {
-            k = k << 1;
+        String str = Integer.toBinaryString(num);
+        int rst = 0;
+        int left = 0;
+        for (; left < str.length(); left++) {
+            if (str.charAt(left) != '1') {
+                break;
+            }
         }
-        k = k - 1;
-        return num ^ k;
+        for (int i = left; i < str.length(); i++) {
+            char c = str.charAt(i);
+            rst *= 2;
+            if (c == '0') {
+                rst += 1;
+            }
+        }
+        return rst;
     }
-
+    
 }

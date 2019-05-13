@@ -1,8 +1,6 @@
 package com.xyzniu.leetcode.tree;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * 589
@@ -15,36 +13,17 @@ public class NAryTreePreorderTraversal {
      * @return
      */
     public List<Integer> preorder(Node root) {
-        List<Integer> rst = new ArrayList<Integer>();
-        preorder(root, rst);
-        return rst;
-    }
-
-    private void preorder(Node root, List<Integer> rst) {
-        if (root == null) {
-            return;
-        }
-        rst.add(root.val);
-        List<Node> children = root.children;
-        for (int i = 0; i < children.size(); i++) {
-            preorder(children.get(i), rst);
-        }
-    }
-
-    public List<Integer> preorder1(Node root) {
-        List<Integer> rst = new ArrayList<>();
-        if (root == null) {
-            return rst;
-        }
         Stack<Node> stack = new Stack<>();
-        stack.push(root);
+        List<Integer> rst = new ArrayList<>();
+        stack.add(root);
         while (!stack.empty()) {
             Node node = stack.pop();
+            if (node == null) {
+                continue;
+            }
             rst.add(node.val);
-            List<Node> children = node.children;
-            for (int i = children.size() - 1; i >= 0; i--) {
-                Node temp = children.get(i);
-                stack.push(temp);
+            for (int i = node.children.size() - 1; i >= 0; i--) {
+                stack.push(node.children.get(i));
             }
         }
         return rst;

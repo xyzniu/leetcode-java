@@ -1,12 +1,13 @@
 package com.xyzniu.leetcode.string;
 
+import java.util.HashMap;
 import java.util.HashSet;
 
 /**
  * 929
  */
 public class UniqueEmailAddresses {
-
+    
     /**
      * 每封电子邮件都由一个本地名称和一个域名组成，以 @ 符号分隔。
      * 例如，在 alice@leetcode.com中， alice 是本地名称，而 leetcode.com 是域名。
@@ -22,19 +23,19 @@ public class UniqueEmailAddresses {
     public int numUniqueEmails(String[] emails) {
         HashSet<String> set = new HashSet<>();
         for (int i = 0; i < emails.length; i++) {
-            set.add(decode(emails[i]));
+            set.add(uniqueEmail(emails[i]));
         }
         return set.size();
     }
-
-    private String decode(String email) {
-        String[] strs = email.split("@");
-        if (strs[0].contains("+")) {
-            strs[0] = strs[0].substring(0, strs[0].indexOf("+"));
+    
+    private String uniqueEmail(String email) {
+        String[] strings = email.split("@");
+        if (strings[0].contains("+")) {
+            strings[0] = strings[0].substring(0, strings[0].indexOf('+'));
         }
-        strs[0] = strs[0].replace(".", "");
-        return strs[0] + strs[1];
+        strings[0] = strings[0].replace(".", "");
+        return strings[0] + "@" + strings[1];
     }
-
-
+    
+    
 }
