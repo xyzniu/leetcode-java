@@ -18,23 +18,32 @@ public class SortArrayByParity {
      * @param A
      * @return
      */
-    public int[] sortArrayByParity(int[] A) {
-        int left = 0;
-        int right = A.length - 1;
-        while (left < right) {
-            while (left < right && A[left] % 2 == 0) {
-                left++;
+    public int[] sortArrayByParityII(int[] A) {
+        int even = 0;
+        int odd = 1;
+        if (A.length <= 1) {
+            return A;
+        }
+        while (even < A.length && odd < A.length) {
+            while (even < A.length && A[even] % 2 == 0) {
+                even += 2;
             }
-            while (left < right && A[right] % 2 != 0) {
-                right--;
+            while (odd < A.length && A[odd] % 2 == 1) {
+                odd += 2;
             }
-            if (left < right) {
-                int temp = A[left];
-                A[left] = A[right];
-                A[right] = temp;
+            if (odd < A.length && even < A.length) {
+                swap(A, odd, even);
+                odd += 2;
+                even += 2;
             }
         }
         return A;
+    }
+    
+    private void swap(int[] A, int odd, int even) {
+        int temp = A[odd];
+        A[odd] = A[even];
+        A[even] = temp;
     }
     
     

@@ -11,18 +11,27 @@ public class DeleteColumnsToMakeSorted {
      * 假设，我们选择了一组删除索引 D，那么在执行删除操作之后，A 中所剩余的每一列都必须是 非降序 排列的，然后请你返回 D.length 的最小可能值。
      **/
     public int minDeletionSize(String[] A) {
-        int sum = 0;
-        for (int i = 0; i < A[0].length(); i++) {
-            char c = A[0].charAt(i);
+        if (A == null || A.length == 0) {
+            return 0;
+        }
+        int count = 0;
+        int len = A[0].length();
+        for (int i = 0; i < len; i++) {
+            char prev = A[0].charAt(i);
+            boolean flag = true;
             for (int j = 1; j < A.length; j++) {
-                if (c <= A[j].charAt(i)) {
-                    c = A[j].charAt(i);
-                } else {
-                    sum++;
+                if (A[j].charAt(i) < prev) {
+                    flag = false;
                     break;
+                } else {
+                    prev = A[j].charAt(i);
                 }
             }
+            if (!flag) {
+                count++;
+            }
         }
-        return sum;
+        return count;
     }
+    
 }
