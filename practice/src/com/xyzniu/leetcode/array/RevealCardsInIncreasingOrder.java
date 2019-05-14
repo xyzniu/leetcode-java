@@ -8,8 +8,8 @@ import java.util.Queue;
  * 950
  */
 public class RevealCardsInIncreasingOrder {
-
-
+    
+    
     /**
      * 牌组中的每张卡牌都对应有一个唯一的整数。你可以按你想要的顺序对这套卡片进行排序。
      * 最初，这些卡牌在牌组里是正面朝下的（即，未显示状态）。
@@ -26,17 +26,17 @@ public class RevealCardsInIncreasingOrder {
     public int[] deckRevealedIncreasing(int[] deck) {
         Arrays.sort(deck);
         Queue<Integer> queue = new LinkedList<>();
-        queue.offer(deck[deck.length - 1]);
-        for (int i = deck.length - 2; i >= 0; i--) {
-            int num = queue.poll();
-            queue.offer(num);
+        for (int i = deck.length - 1; i >= 0; i--) {
+            if (!queue.isEmpty()) {
+                int num = queue.poll();
+                queue.offer(num);
+            }
             queue.offer(deck[i]);
         }
-        int size = queue.size();
-        int[] rst = new int[size];
-        for (int i = size - 1; i >= 0; i--) {
-            rst[i] = queue.poll();
+        
+        for (int i = 0; i < deck.length; i++) {
+            deck[i] = queue.poll();
         }
-        return rst;
+        return deck;
     }
 }
