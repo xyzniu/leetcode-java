@@ -4,7 +4,7 @@ package com.xyzniu.leetcode.string;
  * 821
  */
 public class ShortestDistanceToACharacter {
-
+    
     /**
      * 给定一个字符串 S 和一个字符 C。返回一个代表字符串 S 中每个字符到字符串 S 中的字符 C 的最短距离的数组。
      *
@@ -13,34 +13,42 @@ public class ShortestDistanceToACharacter {
      * @return
      */
     public int[] shortestToChar(String S, char C) {
-        int[] left = new int[S.length()];
-        boolean flag = false;
-        int num = 0;
+        int[] leftToRight = new int[S.length()];
+        int[] rightToLeft = new int[S.length()];
+        int[] rst = new int[S.length()];
+        
+        boolean flag = true;
+        int count = 0;
         for (int i = 0; i < S.length(); i++) {
             if (S.charAt(i) == C) {
-                flag = true;
-                num = 0;
-                left[i] = num;
-            } else if (!flag) {
-                left[i] = S.length();
+                leftToRight[i] = 0;
+                count = 1;
+                flag = false;
+            } else if (flag) {
+                leftToRight[i] = Integer.MAX_VALUE;
             } else {
-                left[i] = ++num;
+                leftToRight[i] = count++;
             }
         }
-
-        num = 0;
-        flag = false;
+        
+        flag = true;
+        count = 0;
         for (int i = S.length() - 1; i >= 0; i--) {
             if (S.charAt(i) == C) {
-                flag = true;
-                num = 0;
-                left[i] = num;
-            } else if (!flag) {
-                left[i] = Math.min(S.length(), left[i]);
+                rightToLeft[i] = 0;
+                count = 1;
+                flag = false;
+            } else if (flag) {
+                rightToLeft[i] = Integer.MAX_VALUE;
             } else {
-                left[i] = Math.min(++num, left[i]);
+                rightToLeft[i] = count++;
             }
         }
-        return left;
+        
+        for (int i = 0; i < S.length(); i++) {
+            rst[i] = Math.min(leftToRight[i], rightToLeft[i]);
+        }
+        return rst;
     }
+    
 }
