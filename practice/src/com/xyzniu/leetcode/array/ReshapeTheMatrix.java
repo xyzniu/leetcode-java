@@ -4,7 +4,7 @@ package com.xyzniu.leetcode.array;
  * 566
  */
 public class ReshapeTheMatrix {
-
+    
     /**
      * 在MATLAB中，有一个非常有用的函数 reshape，它可以将一个矩阵重塑为另一个大小不同的新矩阵，但保留其原始数据。
      * 给出一个由二维数组表示的矩阵，以及两个正整数r和c，分别表示想要的重构的矩阵的行数和列数。
@@ -19,22 +19,23 @@ public class ReshapeTheMatrix {
     public int[][] matrixReshape(int[][] nums, int r, int c) {
         int ilen = nums.length;
         int jlen = nums[0].length;
-        if (ilen * jlen != r * c) {
+        if (r * c != ilen * jlen) {
             return nums;
         }
+        
+        int ii = 0, jj = 0;
         int[][] rst = new int[r][c];
-        int iindex = 0;
-        int jindex = 0;
         for (int i = 0; i < ilen; i++) {
             for (int j = 0; j < jlen; j++) {
-                rst[iindex][jindex] = nums[i][j];
-                jindex++;
-                if (jindex == c) {
-                    jindex = 0;
-                    iindex++;
+                rst[ii][jj] = nums[i][j];
+                jj++;
+                if (jj == c) {
+                    jj = 0;
+                    ii++;
                 }
             }
         }
         return rst;
     }
+    
 }

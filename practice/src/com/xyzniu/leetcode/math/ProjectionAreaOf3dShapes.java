@@ -4,8 +4,8 @@ package com.xyzniu.leetcode.math;
  * 883
  */
 public class ProjectionAreaOf3dShapes {
-
-
+    
+    
     /**
      * 在 N * N 的网格中，我们放置了一些与 x，y，z 三轴对齐的 1 * 1 * 1 立方体。
      * 每个值 v = grid[i][j] 表示 v 个正方体叠放在单元格 (i, j) 上。
@@ -17,24 +17,28 @@ public class ProjectionAreaOf3dShapes {
      * @param grid
      * @return
      */
+    
     public int projectionArea(int[][] grid) {
         int sum = 0;
+        int[] rowMax = new int[grid.length];
+        int[] columnMax = new int[grid[0].length];
+        
         for (int i = 0; i < grid.length; i++) {
-            int max = 0;
             for (int j = 0; j < grid[0].length; j++) {
-                max = Math.max(grid[i][j], max);
-                if (grid[i][j] > 0) {
-                    sum++;
+                int one = grid[i][j];
+                if (one != 0) {
+                    sum += 1;
                 }
+                rowMax[i] = Math.max(rowMax[i], one);
+                columnMax[j] = Math.max(columnMax[j], one);
             }
-            sum += max;
         }
-        for (int j = 0; j < grid[0].length; j++) {
-            int max = 0;
-            for (int i = 0; i < grid.length; i++) {
-                max = Math.max(max, grid[i][j]);
-            }
-            sum += max;
+        
+        for (int i = 0; i < rowMax.length; i++) {
+            sum += rowMax[i];
+        }
+        for (int i = 0; i < columnMax.length; i++) {
+            sum += columnMax[i];
         }
         return sum;
     }

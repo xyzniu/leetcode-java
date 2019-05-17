@@ -4,7 +4,7 @@ package com.xyzniu.leetcode.array;
  * 985
  */
 public class SumOfEvenNumbersAfterQueries {
-
+    
     /**
      * Q:
      * 给出一个整数数组 A 和一个查询数组 queries。
@@ -23,23 +23,19 @@ public class SumOfEvenNumbersAfterQueries {
      * @return
      */
     public int[] sumEvenAfterQueries(int[] A, int[][] queries) {
-        return sumEvenAfterQueries1(A, queries);
-    }
-
-    public int[] sumEvenAfterQueries1(int[] A, int[][] queries) {
-
         int sum = 0;
         for (int i = 0; i < A.length; i++) {
             if (A[i] % 2 == 0) {
                 sum += A[i];
             }
         }
-
+        
         int[] rst = new int[queries.length];
-
+        
         for (int i = 0; i < queries.length; i++) {
             int val = queries[i][0];
             int index = queries[i][1];
+            
             if (A[index] % 2 == 0) {
                 sum -= A[index];
             }

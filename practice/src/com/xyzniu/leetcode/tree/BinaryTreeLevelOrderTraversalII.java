@@ -6,7 +6,7 @@ import java.util.*;
  * 107
  */
 public class BinaryTreeLevelOrderTraversalII {
-
+    
     /**
      * 给定一个二叉树，返回其节点值自底向上的层次遍历。 （即按从叶子节点所在层到根节点所在的层，逐层从左向右遍历）
      *
@@ -24,13 +24,13 @@ public class BinaryTreeLevelOrderTraversalII {
             int size = queue.size();
             List<Integer> row = new ArrayList<>();
             for (int i = 0; i < size; i++) {
-                TreeNode n = queue.poll();
-                row.add(n.val);
-                if (n.left != null) {
-                    queue.offer(n.left);
+                TreeNode t = queue.poll();
+                row.add(t.val);
+                if (t.left != null) {
+                    queue.offer(t.left);
                 }
-                if (n.right != null) {
-                    queue.offer(n.right);
+                if (t.right != null) {
+                    queue.offer(t.right);
                 }
             }
             rst.add(row);
@@ -38,5 +38,5 @@ public class BinaryTreeLevelOrderTraversalII {
         Collections.reverse(rst);
         return rst;
     }
-
+    
 }

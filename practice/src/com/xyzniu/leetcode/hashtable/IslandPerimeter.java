@@ -7,7 +7,7 @@ import java.util.Objects;
  * 463
  */
 public class IslandPerimeter {
-
+    
     /**
      * 给定一个包含 0 和 1 的二维网格地图，其中 1 表示陆地 0 表示水域。
      * 网格中的格子水平和垂直方向相连（对角线方向不相连）。整个网格被水完全包围，但其中恰好有一个岛屿（或者说，一个或多个表示陆地的格子相连组成的岛屿）。
@@ -17,93 +17,37 @@ public class IslandPerimeter {
      * @return
      */
     public int islandPerimeter(int[][] grid) {
-        HashSet<Entry> set = new HashSet<>();
-        int sum = 0;
-        for (int i = 0; i < grid.length; i++) {
-            for (int j = 0; j < grid[0].length; j++) {
+        int length = 0;
+        int ilen = grid.length - 1;
+        int jlen = grid[0].length - 1;
+        for (int i = 0; i <= ilen; i++) {
+            for (int j = 0; j <= jlen; j++) {
                 if (grid[i][j] == 0) {
                     continue;
                 }
-                sum += 4;
-                Entry e1 = new Entry(i - 1, j);
-                Entry e2 = new Entry(i, j - 1);
-                if (set.contains(e1)) {
-                    sum -= 2;
+                if (i == 0) {
+                    length++;
+                } else if (grid[i - 1][j] == 0) {
+                    length++;
                 }
-                if (set.contains(e2)) {
-                    sum -= 2;
+                if (i == ilen) {
+                    length++;
+                } else if (grid[i + 1][j] == 0) {
+                    length++;
                 }
-                Entry e = new Entry(i, j);
-                set.add(e);
-            }
-        }
-        return sum;
-    }
-
-    class Entry {
-        int i;
-        int j;
-
-        public Entry(int i, int j) {
-            this.i = i;
-            this.j = j;
-        }
-
-        @Override
-        public boolean equals(Object o) {
-            if (this == o) return true;
-            if (o == null || getClass() != o.getClass()) return false;
-            Entry entry = (Entry) o;
-            return i == entry.i &&
-                    j == entry.j;
-        }
-
-        @Override
-        public int hashCode() {
-            return i * j;
-        }
-    }
-
-
-    public int islandPerimeter1(int[][] grid) {
-        HashSet<Integer> set = new HashSet<>();
-        int len = grid.length;
-        int sum = 0;
-        for (int i = 0; i < len; i++) {
-            for (int j = 0; j < grid[0].length; j++) {
-                if (grid[i][j] == 0) {
-                    continue;
+                if (j == 0) {
+                    length++;
+                } else if (grid[i][j - 1] == 0) {
+                    length++;
                 }
-                set.add(i * len + j);
-                sum += 4;
-                if (set.contains((i - 1) * len + j)) {
-                    sum -= 2;
-                }
-                if (set.contains(i * len + j - 1)) {
-                    sum -= 2;
+                if (j == jlen) {
+                    length++;
+                } else if (grid[i][j + 1] == 0) {
+                    length++;
                 }
             }
         }
-        return sum;
+        return length;
     }
-
-    public int islandPerimeter3(int[][] grid) {
-        int sum = 0;
-        for (int i = 0; i < grid.length; i++) {
-            for (int j = 0; j < grid[0].length; j++) {
-                if (grid[i][j] == 0) {
-                    continue;
-                }
-                sum += 4;
-                if (i > 0 && grid[i - 1][j] == 1) {
-                    sum -= 2;
-                }
-                if (j > 0 && grid[i][j - 1] == 1) {
-                    sum -= 2;
-                }
-            }
-        }
-        return sum;
-    }
-
+    
 }
