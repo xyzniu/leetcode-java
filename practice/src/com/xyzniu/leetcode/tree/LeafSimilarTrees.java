@@ -20,35 +20,39 @@ public class LeafSimilarTrees {
      * @return
      */
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {
-        List<Integer> rst1 = leaf(root1);
-        List<Integer> rst2 = leaf(root2);
-        if (rst1.size() != rst2.size()) {
-            return false;
+        ArrayList<Integer> list1 = new ArrayList<>();
+        ArrayList<Integer> list2 = new ArrayList<>();
+        leaf(root1, list1);
+        leaf(root2, list2);
+        if(list1.size()!=list2.size()) {
+        	return false;
         }
-        for (int i = 0; i < rst1.size(); i++) {
-            if (rst1.get(i) != rst2.get(i)) {
-                return false;
-            }
+        for(int i = 0; i < list1.size(); i++) {
+        	if(list1.get(i)!=list2.get(i)) {
+        		return false;
+        	}
         }
         return true;
     }
 
-    private List<Integer> leaf(TreeNode root) {
-        Stack<TreeNode> stack = new Stack<>();
-        List<Integer> rst = new ArrayList<>();
-        stack.push(root);
-        while (!stack.empty()) {
-            TreeNode n = stack.pop();
-            if (n.right != null) {
-                stack.push(n.right);
-            }
-            if (n.left != null) {
-                stack.push(n.left);
-            }
-            if (n.left == null && n.right == null) {
-                rst.add(n.val);
-            }
-        }
-        return rst;
-    }
+	private void leaf(TreeNode root, ArrayList<Integer> list) {
+		if(root==null) {
+			return;
+		}
+		Stack<TreeNode> stack = new Stack<>();
+		stack.push(root);
+		while(!stack.empty()) {
+			TreeNode n = stack.pop();
+			if(n.left==null && n.right==null) {
+				list.add(n.val);
+			}else {
+				if(n.right!=null) {
+					stack.push(n.right);
+				}
+				if(n.left!=null) {
+					stack.push(n.left);
+				}
+			}
+		}
+	}
 }

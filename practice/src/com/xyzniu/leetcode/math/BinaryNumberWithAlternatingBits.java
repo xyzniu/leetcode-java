@@ -13,9 +13,18 @@ public class BinaryNumberWithAlternatingBits {
      * @return
      */
     public boolean hasAlternatingBits(int n) {
-        int num = n ^ (n >> 1);
-        int rst = num & (num + 1);
-        return rst == 0;
+    	String sb = Integer.toBinaryString(n);
+    	boolean isOne = true;
+    	for(int i = 0; i < sb.length(); i++) {
+    		if(isOne && sb.charAt(i)=='1') {
+    			isOne = false;
+    		}else if(!isOne && sb.charAt(i)=='0') {
+    			isOne = true;
+    		}else {
+    			return false;
+    		}
+    	}
+    	return true;
     }
 
 }

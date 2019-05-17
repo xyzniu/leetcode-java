@@ -18,18 +18,18 @@ public class FizzBuzz {
      * @return
      */
     public List<String> fizzBuzz(int n) {
-        List<String> rst = new ArrayList<>();
-        for (int i = 1; i <= n; i++) {
-            if (i % 15 == 0) {
-                rst.add("FizzBuzz");
-            } else if (i % 5 == 0) {
-                rst.add("Buzz");
-            } else if (i % 3 == 0) {
-                rst.add("Fizz");
-            } else {
-                rst.add(String.valueOf(i));
-            }
-        }
-        return rst;
+    	List<String> rst = new ArrayList<>();
+    	for(int i = 1; i <= n; i++) {
+    		if(i%15==0) {
+    			rst.add("FizzBuzz");
+    		}else if(i%5==0) {
+    			rst.add("Buzz");
+    		}else if(i%3==0) {
+    			rst.add("Fizz");
+    		}else {
+    			rst.add(String.valueOf(i));
+    		}
+    	}
+    	return rst;
     }
 }

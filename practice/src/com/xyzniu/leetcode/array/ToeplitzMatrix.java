@@ -13,15 +13,12 @@ public class ToeplitzMatrix {
      * @return
      */
     public boolean isToeplitzMatrix(int[][] matrix) {
-        int[] prev = matrix[0];
-        for (int i = 1; i < matrix.length; i++) {
-            int[] row = matrix[i];
-            for (int j = 1; j < row.length; j++) {
-                if (row[j] != prev[j - 1]) {
-                    return false;
-                }
-            }
-            prev = row;
+        for(int i = 1; i < matrix.length; i++) {
+        	for(int j = 1; j < matrix[0].length; j++) {
+        		if(matrix[i][j]!=matrix[i-1][j-1]) {
+        			return false;
+        		}
+        	}
         }
         return true;
     }

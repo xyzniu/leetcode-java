@@ -7,47 +7,58 @@ import java.util.Queue;
  * 225
  */
 public class ImplementStackUsingQueues {
-
-
 }
 
 
 class MyStack {
-
-    Queue<Integer> queue1;
-    Queue<Integer> queue2;
-
+	
+	Queue<Integer> q1;
+	Queue<Integer> q2;
+	
     public MyStack() {
-        queue1 = new LinkedList<>();
-        queue2 = new LinkedList<>();
+    	 q1 = new LinkedList<>();
+    	 q2 = new LinkedList<>();
     }
-
+    
     public void push(int x) {
-        queue1.offer(x);
+        if(!q2.isEmpty()) {
+        	q2.offer(x);
+        }else {
+        	q1.offer(x);
+        }
     }
-
+    
     public int pop() {
-        while (queue1.size() > 1) {
-            queue2.offer(queue1.poll());
-        }
-        int rst = queue1.poll();
-        queue1 = queue2;
-        queue2 = new LinkedList<>();
-        return rst;
+        return adjust(true);
     }
+    
+    private int adjust(boolean pop) {
+    	Queue<Integer> qin, qout;
+    	if(q1.isEmpty()) {
+    		qin = q1;
+    		qout = q2;
+    	}else {
+    		qin = q2;
+    		qout = q1;
+    	}
+    	
+    	while(qout.size()!=1) {
+    		qin.offer(qout.poll());
+    	}
 
-    public int top() {
-        while (queue1.size() > 1) {
-            queue2.offer(queue1.poll());
-        }
-        int rst = queue1.poll();
-        queue1 = queue2;
-        queue1.offer(rst);
-        queue2 = new LinkedList<>();
-        return rst;
+    	int val = qout.poll();
+    	if(!pop) {
+    		qin.offer(val);
+    	}
+    	return val;
+
+	}
+
+	public int top() {
+		return adjust(false);
     }
-
+    
     public boolean empty() {
-        return queue1.isEmpty();
+        return q1.isEmpty()&&q2.isEmpty();
     }
 }

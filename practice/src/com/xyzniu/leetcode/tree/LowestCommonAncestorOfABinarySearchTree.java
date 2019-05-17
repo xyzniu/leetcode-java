@@ -15,19 +15,24 @@ public class LowestCommonAncestorOfABinarySearchTree {
      * @return
      */
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        int min = Math.min(p.val, q.val);
-        int max = Math.max(p.val, q.val);
-        return lowestCommonAncestor(root, min, max);
+       int v1 = Math.min(p.val, q.val);
+       int v2 = Math.max(p.val, q.val);
+       return lowestCommonAncestor(root, v1, v2);
     }
 
-    private TreeNode lowestCommonAncestor(TreeNode root, int min, int max) {
-        if (root.val > max) {
-            return lowestCommonAncestor(root.left, min, max);
-        }
-        if (root.val < min) {
-            return lowestCommonAncestor(root.right, min, max);
-        }
-        return root;
-    }
-
+	private TreeNode lowestCommonAncestor(TreeNode root, int v1, int v2) {
+		if(root == null) {
+			return null;
+		}
+		
+		int val = root.val;
+		
+		if(v1<=val && v2 >=val) {
+			return root;
+		}else if(v1>=val) {
+			return lowestCommonAncestor(root.right, v1, v2);
+		}else {
+			return lowestCommonAncestor(root.left, v1, v2);
+		}
+	}
 }
