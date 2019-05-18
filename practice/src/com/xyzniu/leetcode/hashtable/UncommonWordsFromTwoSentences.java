@@ -6,8 +6,8 @@ import java.util.*;
  * 884
  */
 public class UncommonWordsFromTwoSentences {
-
-
+    
+    
     /**
      * 给定两个句子 A 和 B 。 （句子是一串由空格分隔的单词。每个单词仅由小写字母组成。）
      * 如果一个单词在其中一个句子中只出现一次，在另一个句子中却没有出现，那么这个单词就是不常见的。
@@ -19,24 +19,25 @@ public class UncommonWordsFromTwoSentences {
      * @return
      */
     public String[] uncommonFromSentences(String A, String B) {
+        String[] strings1 = A.split(" ");
+        String[] strings2 = B.split(" ");
         HashMap<String, Integer> map = new HashMap<>();
-        String[] as = A.split(" ");
-        String[] bs = B.split(" ");
-        for (int i = 0; i < as.length; i++) {
-            map.put(as[i], map.getOrDefault(as[i], 0) + 1);
-        }
-        for (int i = 0; i < bs.length; i++) {
-            map.put(bs[i], map.getOrDefault(bs[i], 0) + 1);
-        }
-
+        count(map, strings1);
+        count(map, strings2);
         List<String> rst = new ArrayList<>();
         for (String str : map.keySet()) {
             if (map.get(str) == 1) {
                 rst.add(str);
             }
         }
-        return rst.toArray(new String[0]);
+        return rst.toArray(new String[rst.size()]);
     }
-
-
+    
+    private void count(HashMap<String, Integer> map, String[] strings) {
+        for (int i = 0; i < strings.length; i++) {
+            map.put(strings[i], map.getOrDefault(strings[i], 0) + 1);
+        }
+    }
+    
+    
 }

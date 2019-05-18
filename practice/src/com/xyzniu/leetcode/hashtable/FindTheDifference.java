@@ -18,37 +18,21 @@ public class FindTheDifference {
      * @return
      */
     public char findTheDifference(String s, String t) {
-        HashMap<Character, Integer> map = getHashMap();
-        for (int i = 0; i < s.length(); i++) {
-            map.put(s.charAt(i), map.get(s.charAt(i)) - 1);
-            map.put(t.charAt(i), map.get(t.charAt(i)) + 1);
-        }
-        char c = t.charAt(t.length() - 1);
-        map.put(c, map.get(c) + 1);
-        for (char cc : map.keySet()) {
-            if (map.get(cc) != 0) {
-                return cc;
+        int[] chs = new int[26];
+        count(chs, s, 1);
+        count(chs, t, -1);
+        for (int i = 0; i < chs.length; i++) {
+            if (chs[i]==-1){
+                return (char)('a'+i);
             }
         }
         return 'a';
     }
-
-    public HashMap<Character, Integer> getHashMap() {
-
-        HashMap<Character, Integer> map = new HashMap<>();
-        for (char c = 'a'; c <= 'z'; c++) {
-            map.put(c, 0);
-        }
-        return map;
-    }
-
-    public char findTheDifference1(String s, String t) {
-        int sum = 0;
+    
+    private void count(int[] chs, String s, int num) {
         for (int i = 0; i < s.length(); i++) {
-            sum = sum ^ s.charAt(i) ^ t.charAt(i);
+            chs[s.charAt(i)-'a']+=num;
         }
-        sum = sum ^ t.charAt(t.length() - 1);
-        return (char)sum;
     }
-
+    
 }

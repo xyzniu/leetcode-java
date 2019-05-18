@@ -4,7 +4,7 @@ package com.xyzniu.leetcode.array;
  * 976
  */
 public class LargestPerimeterTriangle {
-
+    
     /**
      * Q:
      * 给定由一些正数（代表长度）组成的数组 A，返回由其中三个长度组成的、面积不为零的三角形的最大周长。
@@ -17,54 +17,56 @@ public class LargestPerimeterTriangle {
      * @return
      */
     public int largestPerimeter(int[] A) {
-        return largestPerimeter1(A);
-    }
-
-    public int largestPerimeter1(int[] A) {
-        quickSort(A, 0, A.length - 1);
-        for (int i = 0; i < A.length - 2; i++) {
+        quicksort(A, 0, A.length - 1);
+        for (int i = A.length - 1; i >= 2; i--) {
             int num1 = A[i];
-            int num2 = A[i + 1];
-            int num3 = A[i + 2];
-            if (num2 + num3 > num1) {
+            int num2 = A[i - 1];
+            int num3 = A[i - 2];
+            if (num2 + num3 > num1 && num1 - num2 < num3) {
                 return num1 + num2 + num3;
             }
         }
         return 0;
     }
-
-    public void quickSort(int[] A, int lo, int hi) {
-        if (lo >= hi) {
+    
+    private void quicksort(int[] A, int start, int end) {
+        if (start >= end) {
             return;
         }
-        int start = lo;
-        int end = hi;
-        int key = A[lo];
-
-        while (start < end) {
-            while (start < end && A[end] <= key) {
-                end--;
+        int one = start;
+        int left = start + 1;
+        int right = end;
+        
+        while (left < right) {
+            while (left < right && A[left] <= A[one]) {
+                left++;
             }
-
-            if (start < end) {
-                int temp = A[start];
-                A[start] = A[end];
-                A[end] = temp;
+            while (left < right && A[right] >= A[one]) {
+                right--;
             }
-
-            while (start < end && A[start] > key) {
-                start++;
-            }
-
-            if (start < end) {
-                int temp = A[start];
-                A[start] = A[end];
-                A[end] = temp;
+            if (left < right) {
+                swap(A, left, right);
+                left++;
+                right--;
             }
         }
-
-        quickSort(A, lo, start - 1);
-        quickSort(A, start + 1, hi);
+        
+        int mid = 0;
+        if (A[left] > A[one]) {
+            swap(A, left - 1, one);
+            mid = left - 1;
+        } else {
+            swap(A, left, one);
+            mid = left;
+        }
+        quicksort(A, start, mid - 1);
+        quicksort(A, mid + 1, end);
     }
-
+    
+    private void swap(int[] A, int i, int j) {
+        int tmp = A[i];
+        A[i] = A[j];
+        A[j] = tmp;
+    }
+    
 }
