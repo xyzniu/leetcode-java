@@ -1,12 +1,13 @@
 package com.xyzniu.leetcode.string;
 
+import java.util.HashMap;
 import java.util.HashSet;
 
 /**
  * 824
  */
 public class GoatLatin {
-
+    
     /**
      * 给定一个由空格分割单词的句子 S。每个单词只包含大写或小写字母。
      * 我们要将句子转换为 “Goat Latin”（一种类似于 猪拉丁文 - Pig Latin 的虚构语言）。
@@ -23,37 +24,40 @@ public class GoatLatin {
      * @return
      */
     public String toGoatLatin(String S) {
-        StringBuffer a = new StringBuffer();
-        a.append("a");
         String[] strings = S.split(" ");
+        HashSet<Character> set = createHashset();
+        StringBuffer sb = new StringBuffer();
+        for (int i = 0; i < strings.length; i++) {
+            String string = strings[i];
+            if (set.contains(string.charAt(0))) {
+                sb.append(string.substring(1));
+                sb.append(string.charAt(0));
+            } else {
+                sb.append(string);
+            }
+            sb.append("ma");
+            for (int j = 0; j <= i; j++) {
+                sb.append('a');
+            }
+            sb.append(' ');
+        }
+        return sb.substring(0, sb.length() - 1);
+    }
+    
+    private HashSet<Character> createHashset() {
         HashSet<Character> set = new HashSet<>();
-        set.add('a');
-        set.add('e');
-        set.add('i');
-        set.add('o');
-        set.add('u');
         set.add('A');
         set.add('E');
         set.add('I');
         set.add('O');
         set.add('U');
-        StringBuffer sb = new StringBuffer();
-        for (int i = 0; i < strings.length; i++) {
-            if (set.contains(strings[i].charAt(0))) {
-                sb.append(strings[i]);
-            } else {
-                sb.append(strings[i].substring(1));
-                sb.append(strings[i].charAt(0));
-            }
-            sb.append("ma");
-            sb.append(a);
-            a.append("a");
-            if (i != strings.length - 1) {
-                sb.append(" ");
-            }
-        }
-        return sb.toString();
+        set.add('a');
+        set.add('e');
+        set.add('i');
+        set.add('o');
+        set.add('u');
+        return set;
     }
-
-
+    
+    
 }

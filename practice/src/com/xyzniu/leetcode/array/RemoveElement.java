@@ -4,8 +4,8 @@ package com.xyzniu.leetcode.array;
  * 027
  */
 public class RemoveElement {
-
-
+    
+    
     /**
      * Q:
      * 给定一个数组 nums 和一个值 val，你需要原地移除所有数值等于 val 的元素，返回移除后数组的新长度。
@@ -20,48 +20,16 @@ public class RemoveElement {
      * @return
      */
     public int removeElement(int[] nums, int val) {
-        return removeElement2(nums, val);
-    }
-
-    public int removeElement1(int[] nums, int val) {
-        if (nums == null || nums.length == 0) {
-            return 0;
-        }
-        int i = 0;
-        int j = nums.length - 1;
-        while (i < j) {
-            while (i < j && nums[i] != val) {
-                i++;
-            }
-            while (i < j && nums[j] == val) {
-                j--;
-            }
-            if (i < j) {
-                nums[i] = nums[j];
-                nums[j] = val;
-            }
-        }
-        if (nums[i] == val) {
-            return i;
-        } else {
-            return i + 1;
-        }
-    }
-
-    public int removeElement2(int[] nums, int val) {
-        if (nums == null || nums.length == 0) {
-            return 0;
-        }
-
         int index = 0;
         int i = 0;
-
         while (i < nums.length) {
-            if (nums[i] != val) {
-                nums[index++] = nums[i];
+            while (i < nums.length && nums[i] == val) {
+                i++;
             }
-            i++;
+            if (i < nums.length) {
+                nums[index++] = nums[i++];
+            }
         }
-        return index + 1;
+        return index;
     }
 }

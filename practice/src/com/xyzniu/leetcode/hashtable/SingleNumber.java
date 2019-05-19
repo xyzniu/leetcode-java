@@ -1,12 +1,13 @@
 package com.xyzniu.leetcode.hashtable;
 
+import java.util.HashMap;
 import java.util.HashSet;
 
 /**
  * 136
  */
 public class SingleNumber {
-
+    
     /**
      * 给定一个非空整数数组，除了某个元素只出现一次以外，其余每个元素均出现两次。找出那个只出现了一次的元素。
      * 说明：
@@ -16,23 +17,21 @@ public class SingleNumber {
      * @return
      */
     public int singleNumber(int[] nums) {
-        HashSet<Integer> set = new HashSet<>();
+        HashMap<Integer, Boolean> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
-            if (set.contains(nums[i])) {
-                set.remove(nums[i]);
+            int num = nums[i];
+            if (!map.containsKey(num)) {
+                map.put(num, true);
             } else {
-                set.add(nums[i]);
+                map.put(num, !map.get(num));
             }
         }
-        return set.iterator().next();
-    }
-
-    public int singleNumber1(int[] nums) {
-        int num = 0;
-        for (int i = 0; i < nums.length; i++) {
-            num = num ^ nums[i];
+        for (int num : map.keySet()) {
+            if (map.get(num)) {
+                return num;
+            }
         }
-        return num;
+        return -1;
     }
-
+    
 }
