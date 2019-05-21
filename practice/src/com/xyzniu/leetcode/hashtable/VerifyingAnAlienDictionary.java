@@ -48,11 +48,5 @@ public class VerifyingAnAlienDictionary {
         }
     }
     
-    public static void main(String[] args) {
-        VerifyingAnAlienDictionary v = new VerifyingAnAlienDictionary();
-        v.createmap("hlabcdefgijkmnopqrstuvwxyz");
-        v.isAlienSorted("hello", "leetcode");
-    }
-    
     
 }

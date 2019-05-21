@@ -6,7 +6,7 @@ import java.lang.reflect.GenericArrayType;
  * 59
  */
 public class SpiralMatrixII {
-
+    
     /**
      * 给定一个正整数 n，生成一个包含 1 到 n2 所有元素，且元素按顺时针顺序螺旋排列的正方形矩阵。
      *
@@ -14,34 +14,31 @@ public class SpiralMatrixII {
      * @return
      */
     public int[][] generateMatrix(int n) {
-        int i = 1;
+        int[][] rst = new int[n][n];
         int left = 0;
         int right = n - 1;
         int top = 0;
-        int down = n - 1;
-        int[][] rst = new int[n][n];
-        while (i < n * n) {
-            for (int j = left; j < right; j++) {
-                rst[top][j] = i++;
+        int bottom = n - 1;
+        int index = 1;
+        while (index <= n * n) {
+            for (int i = left; i <= right; i++) {
+                rst[top][i] = index++;
             }
-            for (int j = top; j < down; j++) {
-                rst[j][right] = i++;
+            top++;
+            for (int i = top; i <= bottom; i++) {
+                rst[i][right] = index++;
             }
-            for (int j = right; j > left; j--) {
-                rst[down][j] = i++;
+            right--;
+            for (int i = right; i >= left; i--) {
+                rst[bottom][i] = index++;
             }
-            for (int j = down; j > top; j--) {
-                rst[j][left] = i++;
+            bottom--;
+            for (int i = bottom; i >= top; i--) {
+                rst[i][left] = index++;
             }
             left++;
-            right--;
-            top++;
-            down--;
-        }
-        if (i == n * n) {
-            rst[top][left] = i;
         }
         return rst;
     }
-
+    
 }
