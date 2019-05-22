@@ -37,10 +37,4 @@ public class GenerateParentheses {
         
         return generateParenthesis(n - 1, set);
     }
-    
-    
-    public static void main(String[] args) {
-        String[] strings = new String[]{};
-        String[] strings1 = new String[]{ "(())(())"};
-    }
 }

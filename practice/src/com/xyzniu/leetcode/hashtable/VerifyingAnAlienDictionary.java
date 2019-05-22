@@ -8,41 +8,38 @@ import java.util.HashSet;
  */
 public class VerifyingAnAlienDictionary {
     
-    /**
-     * 某种外星语也使用英文小写字母，但可能顺序 order 不同。字母表的顺序（order）是一些小写字母的排列。
-     * 给定一组用外星语书写的单词 words，以及其字母表的顺序 order，只有当给定的单词在这种外星语中按字典序排列时，返回 true；否则，返回 false。
-     *
-     * @param words
-     * @param order
-     * @return
-     */
-    HashMap<Character, Integer> map = new HashMap<>();
+    HashMap<Character, Integer> map;
     
     public boolean isAlienSorted(String[] words, String order) {
-        createmap(order);
+        getOrder(order);
         for (int i = 0; i < words.length - 1; i++) {
-            if (!isAlienSorted(words[i], words[i + 1])) {
+            String str1 = words[i];
+            String str2 = words[i + 1];
+            if (!isSorted(str1, str2)) {
                 return false;
             }
         }
         return true;
     }
     
-    
-    public boolean isAlienSorted(String word1, String word2) {
-        int length = Math.min(word1.length(), word2.length());
-        for (int i = 0; i < length; i++) {
-            if (map.get(word1.charAt(i)) > map.get(word2.charAt(i))) {
+    private boolean isSorted(String str1, String str2) {
+        int len = Math.min(str1.length(), str2.length());
+        
+        for (int i = 0; i < len; i++) {
+            int num1 = map.get(str1.charAt(i));
+            int num2 = map.get(str2.charAt(i));
+            if (num1 < num2) {
                 return true;
+            } else if (num1 > num2) {
+                return false;
             }
         }
-        if (word1.length() > word2.length()) {
-            return false;
-        }
-        return true;
+        
+        return str1.length() <= str2.length();
     }
     
-    private void createmap(String order) {
+    private void getOrder(String order) {
+        map = new HashMap<>();
         for (int i = 0; i < order.length(); i++) {
             map.put(order.charAt(i), i);
         }

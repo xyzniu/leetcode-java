@@ -6,17 +6,36 @@ package com.xyzniu.leetcode.tree;
 public class MinimumAbsoluteDifferenceInBst {
     
     public int getMinimumDifference(TreeNode root) {
-        int min = Integer.MAX_VALUE;
         if (root == null) {
-            return -1;
+            return Integer.MAX_VALUE;
+        }
+        int min = Math.min(getMinimumDifference(root.left), getMinimumDifference(root.right));
+        int left = Integer.MAX_VALUE;
+        int right = Integer.MAX_VALUE;
+        if (root.right != null) {
+            right = getRightVal(root.right) - root.val;
         }
         if (root.left != null) {
-            min = Math.min(min, Math.abs(root.val - root.left.val));
+            left =  root.val - getLeftVal(root.left);
         }
-        if (root.right != null) {
-            min = Math.min(min, Math.abs(root.val - root.right.val));
-        }
-        return Math.min(Math.min(min, getMinimumDifference(root.left)), getMinimumDifference(root.right));
+        int min2 = Math.min(left, right);
+        return Math.min(min, min2);
     }
     
+    private int getLeftVal(TreeNode left) {
+        while (left.right != null) {
+            left = left.right;
+        }
+        return left.val;
+    }
+    
+    private int getRightVal(TreeNode right) {
+        while (right.left != null) {
+            right = right.left;
+        }
+        return right.val;
+    }
+    
+    
 }
+
