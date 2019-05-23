@@ -4,7 +4,7 @@ package com.xyzniu.leetcode.string;
  * 520
  */
 public class DetectCapital {
-
+    
     /**
      * 给定一个单词，你需要判断单词的大写使用是否正确。
      * 我们定义，在以下情况时，单词的大写用法是正确的：
@@ -19,36 +19,30 @@ public class DetectCapital {
     public boolean detectCapitalUse(String word) {
         char c = word.charAt(0);
         if (c >= 'A' && c <= 'Z') {
-            if (word.length() == 1) {
-                return true;
-            }
-            char cc = word.charAt(1);
-            if (cc >= 'A' && cc <= 'Z') {
-                char ccc;
-                for (int i = 2; i < word.length(); i++) {
-                    ccc = word.charAt(i);
-                    if (ccc > 'Z' || ccc < 'A') {
-                        return false;
-                    }
-                }
-            } else {
-                char ccc;
-                for (int i = 2; i < word.length(); i++) {
-                    ccc = word.charAt(i);
-                    if (ccc > 'z' || ccc < 'a') {
-                        return false;
-                    }
-                }
-            }
-
+            return isLowerCase(word) || isUpperCase(word);
         } else {
-            for (int i = 1; i < word.length(); i++) {
-                char ccc = word.charAt(i);
-                if (ccc < 'a' || ccc > 'z') {
-                    return false;
-                }
+            return isLowerCase(word);
+        }
+    }
+    
+    private boolean isUpperCase(String word) {
+        for (int i = 1; i < word.length(); i++) {
+            char c = word.charAt(i);
+            if (c < 'A' || c > 'Z') {
+                return false;
             }
         }
         return true;
     }
+    
+    private boolean isLowerCase(String word) {
+        for (int i = 1; i < word.length(); i++) {
+            char c = word.charAt(i);
+            if (c < 'a' || c > 'z') {
+                return false;
+            }
+        }
+        return true;
+    }
+    
 }
