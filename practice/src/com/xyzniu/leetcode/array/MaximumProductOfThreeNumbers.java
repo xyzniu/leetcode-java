@@ -6,49 +6,55 @@ import java.util.Arrays;
  * 628
  */
 public class MaximumProductOfThreeNumbers {
-
-    /**
-     * 给定一个整型数组，在数组中找出由三个数组成的最大乘积，并输出这个乘积。
-     *
-     * @param nums
-     * @return
-     */
+    
     public int maximumProduct(int[] nums) {
-        quickSort(nums, 0, nums.length - 1);
-        int len = nums.length - 1;
-        int right = nums[len] * nums[len - 1] * nums[len - 2];
-        int left = nums[len] * nums[0] * nums[1];
-        return Math.max(right, left);
+        int len = nums.length;
+        quicksort(nums, 0, len - 1);
+        int rst = Integer.MIN_VALUE;
+        if (nums[1] < 0) {
+            rst = nums[0] * nums[1] * nums[len - 1];
+        }
+        rst = Math.max(rst, nums[len - 1] * nums[len - 2] * nums[len - 3]);
+        
+        return rst;
     }
-
-    public void quickSort(int[] nums, int lo, int hi) {
-        if (lo >= hi) {
+    
+    private void quicksort(int[] nums, int start, int end) {
+        if (start >= end) {
             return;
         }
-        int start = lo;
-        int end = hi;
-        int key = nums[lo];
-        while (start < end) {
-            while (start < end && nums[end] >= key) {
-                end--;
+        int one = start;
+        int left = start + 1;
+        int right = end;
+        while (left < right) {
+            while (left < right && nums[left] <= nums[one]) {
+                left++;
             }
-            if (start < end) {
-                int temp = nums[start];
-                nums[start] = nums[end];
-                nums[end] = temp;
+            while (left < right && nums[right] >= nums[one]) {
+                right--;
             }
-            while (start < end && nums[start] < key) {
-                start++;
-            }
-            if (start < end) {
-                int temp = nums[start];
-                nums[start] = nums[end];
-                nums[end] = temp;
+            if (left < right) {
+                swap(nums, left, right);
+                left++;
+                right--;
             }
         }
-        quickSort(nums, lo, start - 1);
-        quickSort(nums, start + 1, hi);
+        int mid;
+        if (nums[left] < nums[one]) {
+            mid = left;
+        } else {
+            mid = left - 1;
+        }
+        swap(nums, one, mid);
+        quicksort(nums, start, mid - 1);
+        quicksort(nums, mid + 1, end);
+        
     }
-
-
+    
+    private void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+    
 }
