@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9d98f43-1863-453c-a965-76653f420087" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/PairsOfSongsWithTotalDurationsDivisibleBy60.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/SetMismatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/WordPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/math/GuessNumberHigherOrLower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/math/RectangleOverlap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/stack/ValidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/string/ImplementStrstr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/string/ValidPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/tree/MinimumDepthOfBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/tree/SubtreeOfAnotherTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/BinaryWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/PartitionArrayIntoThreePartsWithEqualSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/RelativeRanks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/RottingOranges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/com/xyzniu/leetcode/array/AddToArrayFormOfInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/com/xyzniu/leetcode/array/AddToArrayFormOfInteger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MaximumSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MaximumSubarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/math/SumOfTwoIntegers.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/math/SumOfTwoIntegers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/math/SurfaceAreaOf3dShapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/math/SurfaceAreaOf3dShapes.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,17 +46,7 @@
     <favorites_list name="leetcode-java" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/SetMismatch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,14 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MaximumProductOfThreeNumbers.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/linkedlist/RemoveDuplicatesFromSortedList.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/math/PowerOfFour.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/math/ConvertANumberToHexadecimal.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/ImageSmoother.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/LongestPalindrome.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/string/RotateString.java" />
-        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/string/CountBinarySubstrings.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/tree/CousinsInBinaryTree.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/TwoSum.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/tree/SecondMinimumNodeInABinaryTree.java" />
@@ -136,13 +114,21 @@
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/math/RectangleOverlap.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/RotateArray.java" />
         <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/SetMismatch.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/math/SumOfTwoIntegers.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/math/SurfaceAreaOf3dShapes.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/RelativeTanks.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/RelativeRanks.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MaximumSubarray.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/PartitionArrayIntoThreePartsWithEqualSum.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/BinaryWatch.java" />
+        <option value="$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/RottingOranges.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="685" />
+    <option name="x" value="682" />
     <option name="y" value="23" />
-    <option name="width" value="755" />
+    <option name="width" value="758" />
     <option name="height" value="795" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -154,6 +140,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,7 +170,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,17 +258,18 @@
       <workItem from="1559657337195" duration="5783000" />
       <workItem from="1560430779906" duration="3021000" />
       <workItem from="1560520892837" duration="4279000" />
+      <workItem from="1560764197627" duration="7000" />
+      <workItem from="1561109963305" duration="2564000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204301000" />
+    <option name="totallyTimeSpent" value="206872000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="685" y="23" width="755" height="795" extended-state="0" />
-    <editor active="true" />
+    <frame x="682" y="23" width="758" height="795" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4965612" weight="0.37218544" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4965612" weight="0.3707124" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -411,58 +398,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/linkedlist/RemoveDuplicatesFromSortedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/math/ConvertANumberToHexadecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/ImageSmoother.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/hashtable/LongestPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/string/CountBinarySubstrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/string/RotateString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/TwoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/tree/CousinsInBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
@@ -792,8 +727,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/SetMismatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        <state relative-caret-position="304">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/math/SumOfTwoIntegers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/math/SurfaceAreaOf3dShapes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/PartitionArrayIntoThreePartsWithEqualSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/MaximumSubarray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/RelativeRanks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/RottingOranges.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/com/xyzniu/leetcode/array/BinaryWatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>

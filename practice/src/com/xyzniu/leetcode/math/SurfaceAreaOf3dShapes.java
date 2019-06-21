@@ -7,22 +7,37 @@ public class SurfaceAreaOf3dShapes {
     
     public int surfaceArea(int[][] grid) {
         int sum = 0;
-        int[] row = new int[grid.length];
-        int[] column = new int[grid[0].length];
+        int num = 0;
         for (int i = 0; i < grid.length; i++) {
             for (int j = 0; j < grid[0].length; j++) {
-                row[i] = Math.max(row[i], grid[i][j]);
-                column[j] = Math.max(column[j], grid[i][j]);
-                sum += 1;
+                num = grid[i][j];
+                if (num == 0) {
+                    continue;
+                }
+                sum += 2;
+                if (i != 0) {
+                    sum += Math.max(0, num - grid[i - 1][j]);
+                } else {
+                    sum += num;
+                }
+                if (i != grid.length - 1) {
+                    sum += Math.max(0, num - grid[i + 1][j]);
+                } else {
+                    sum += num;
+                }
+                if (j != 0) {
+                    sum += Math.max(0, num - grid[i][j - 1]);
+                } else {
+                    sum += num;
+                }
+                if (j != grid[0].length - 1) {
+                    sum += Math.max(0, num - grid[i][j + 1]);
+                } else {
+                    sum += num;
+                }
             }
         }
-        for (int i = 0; i < row.length; i++) {
-            sum += row[i];
-        }
-        for (int i = 0; i < column.length; i++) {
-            sum += column[i];
-        }
-        return sum * 2;
+        return sum;
     }
     
 }
